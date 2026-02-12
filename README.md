@@ -76,3 +76,11 @@ DataCom Threat Analyst Simulation - Data Analysis
 •	Log analysis
 •	Security fundamentals
 
+### Project: Python algorithm Portfolio
+In this project, I developed a Python algorithm to automate the process of maintaining an IP address allow list for a healthcare organization.
+The allow list contains the IP addresses of employees authorized to access a restricted subnetwork containing sensitive patient records.
+I created a secondary list identifying employees whose access privileges needed to be revoked.
+The algorithm opens the allow list file using a with statement and reads its contents using the .read( ) method. It then converts the string data into a list using .split( ) so that individual IP addresses can be evaluated and modified.
+A for loop iterates through the removal list, and a conditional statement checks for matching IP addresses. When a match is found, the .remove( ) method deletes the IP address from the list.
+Finally, the updated list is converted back into a string using .join( ) and written back to the file using the .write( ) method.
+This project demonstrates my ability to use Python for file handling, access control management, data manipulation, and automation of security processes.
